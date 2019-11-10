@@ -41,6 +41,11 @@ public class CommandUpdateBalance extends Command {
         }
     }
 
+    /**
+     * extractAmount helps to parse the userInput to get the amount to be setBalance.
+     * @return Double of the amount to be setBalance is returned
+     * @throws DukeException thrown if amount is < 0
+     */
     private Double extractAmount() throws DukeException {
 
         String incomeStr = Parser.parseForPrimaryInput(this.commandType, this.userInput);
@@ -57,6 +62,10 @@ public class CommandUpdateBalance extends Command {
         }
     }
 
+    /**
+     * hasBeenSetAlready helps to check if in the instance is setBalance is already called.
+     * @return if already setBalance, true is returned.
+     */
     private boolean hasBeenSetAlready() {
         return getExecutedCommands().contains(this.commandType.toString());
     }
