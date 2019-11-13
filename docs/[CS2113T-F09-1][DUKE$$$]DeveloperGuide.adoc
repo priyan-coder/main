@@ -11,109 +11,109 @@
 == 1.   Table of Contents
 
 
-1.   Table of Contents	1
-2.   Introduction	5
-2.1.   Purpose of Document	5
-2.2.   Audience	5
-2.3.   Document Organization	5
-2.4.   User Guide	5
-2.5.   Markup	6
-3.   Setting Up	7
-3.1.   Prerequisites	7
-3.2.   Setting up the project on your own Device	7
-4.   Design	8
-4.1.   Architecture	8
-4.2.   Main Layer	9
-4.3.   Ui Layer	9
-4.3.1. Main Ui Classes	10
-4.3.2. Ui Displays	11
-4.3.3. Ui Components	11
-4.3.4. UiCode	12
-4.4.   Interpreter Layer	12
-4.5.   Executor Layer	12
-4.5.1. Main Executor Class	12
-4.5.2. Commands	13
-4.5.3. Accessors	15
-4.6.   Storage Layer	15
-4.6.1. Main Storage Classes	15
-4.6.2. Models	16
-5.   Implementation	17
-5.1.   Interpreting a User’s Input	17
-5.1.1.   Instruction Structure	17
-5.1.2.   Instruction Inputs	17
-5.1.3.   Main Parser Methods	18
-5.1.4.   Design Considerations	18
-5.2.   Calculator	19
-5.3.   Expenditure	21
-5.3.1.   Daily Expenditure	22
-5.3.2.   Weekly Expenditure	23
-5.3.3.   Monthly Expenditure	24
-5.3.4.   Yearly Expenditure	25
-5.4.   Addition of new receipts into a User’s wallet	28
-5.5.   Currency Converter	29
-5.6.   Weather Display	32
-5.7.   Export Wallet into csv	35
-5.8.   SetBudget	36
-5.9.   Listing based on Date	38
-5.10.   Help	39
-5.11.   Edit	42
-5.12.   Providing Statistics	45
-5.13.   Displaying Major Expenses	48
-5.14.   Tracking an Expense By Tag	49
-5.14.1.   Input Format	49
-5.14.2.   Sequence of Events	50
-5.14.3.   Design Considerations	52
-5.14.4.   Future Implementations	53
-Appendix A.   Product Scope	54
-Value Proposition	54
-Appendix B.   User Stories	55
-Appendix C.   Use Cases	58
-Use case 1: Adding a Spending Receipt	58
-Use case 2: Converting Currency	58
-Use case 3: Displaying Weather	59
-Use case 4: Display expenditure for Day	59
-Use case 5: Display expenditure for Week	60
-Use case 6: Display expenditure for Month	60
-Use case 7: Display expenditure for Year	61
-Use case 8: Display list of receipts by date	61
-Use case 9: Adding an Income Receipt	62
-Use case 10: View help section	62
-Use case 11: Edit receipt	62
-Use case 12: Export WalletData into csv	63
-Use case 13: List major expense receipts	64
-Use case 14: Budget	64
-Use case 15: Display statistics for a tag	65
-Appendix D.   Non-functional Requirements	66
-Appendix E.   Glossary	67
-Appendix F.   Instruction for Manual Testing	68
-1. Downloading and beginning the application	68
-2. Addition of receipts	68
-2.1. Addition of income receipts	68
-2.2. Addition of Spending receipts	69
-3. Deletion of receipts	69
-4. Balance display	70
-4.1. Get total balance	70
-4.2. Get total expenditure	70
-4.3. Get expenditure for a day	70
-4.4. Get expenditure for the current week	71
-4.5. Get expenditure for a month	71
-4.6. Get expenditure for a year	71
-5. Listing receipts	72
-5.1. List receipts by index	72
-5.2. List receipts by date	72
-6. Tracking receipts	72
-6.1. Track receipts by tag	72
-6.2. Untrack receipts by tag	73
-7. Checking statistics	73
-8. Currency Conversion	73
-9. Checking the weather	74
-10. Basic arithmetic	75
-10.1. Addition	75
-10.2. Subtraction	75
-10.3. Multiplication	76
-10.4. Division	76
-11. Help	77
-12. Edit	77
+*1.   Table of Contents	1
+*2.   Introduction	5
+**2.1.   Purpose of Document	5
+**2.2.   Audience	5
+**2.3.   Document Organization	5
+**2.4.   User Guide	5
+**2.5.   Markup	6
+*3.   Setting Up	7
+**3.1.   Prerequisites	7
+**3.2.   Setting up the project on your own Device	7
+*4.   Design	8
+**4.1.   Architecture	8
+**4.2.   Main Layer	9
+**4.3.   Ui Layer	9
+***4.3.1. Main Ui Classes	10
+***4.3.2. Ui Displays	11
+***4.3.3. Ui Components	11
+***4.3.4. UiCode	12
+**4.4.   Interpreter Layer	12
+**4.5.   Executor Layer	12
+***4.5.1. Main Executor Class	12
+***4.5.2. Commands	13
+***4.5.3. Accessors	15
+**4.6.   Storage Layer	15
+***4.6.1. Main Storage Classes	15
+***4.6.2. Models	16
+*5.   Implementation	17
+**5.1.   Interpreting a User’s Input	17
+***5.1.1.   Instruction Structure	17
+***5.1.2.   Instruction Inputs	17
+***5.1.3.   Main Parser Methods	18
+***5.1.4.   Design Considerations	18
+**5.2.   Calculator	19
+**5.3.   Expenditure	21
+***5.3.1.   Daily Expenditure	22
+***5.3.2.   Weekly Expenditure	23
+***5.3.3.   Monthly Expenditure	24
+***5.3.4.   Yearly Expenditure	25
+**5.4.   Addition of new receipts into a User’s wallet	28
+**5.5.   Currency Converter	29
+**5.6.   Weather Display	32
+**5.7.   Export Wallet into csv	35
+**5.8.   SetBudget	36
+**5.9.   Listing based on Date	38
+**5.10.   Help	39
+**5.11.   Edit	42
+**5.12.   Providing Statistics	45
+**5.13.   Displaying Major Expenses	48
+**5.14.   Tracking an Expense By Tag	49
+***5.14.1.   Input Format	49
+***5.14.2.   Sequence of Events	50
+***5.14.3.   Design Considerations	52
+***5.14.4.   Future Implementations	53
+*Appendix A.   Product Scope	54
+**Value Proposition	54
+*Appendix B.   User Stories	55
+*Appendix C.   Use Cases	58
+**Use case 1: Adding a Spending Receipt	58
+**Use case 2: Converting Currency	58
+**Use case 3: Displaying Weather	59
+**Use case 4: Display expenditure for Day	59
+**Use case 5: Display expenditure for Week	60
+**Use case 6: Display expenditure for Month	60
+**Use case 7: Display expenditure for Year	61
+**Use case 8: Display list of receipts by date	61
+**Use case 9: Adding an Income Receipt	62
+**Use case 10: View help section	62
+**Use case 11: Edit receipt	62
+**Use case 12: Export WalletData into csv	63
+**Use case 13: List major expense receipts	64
+**Use case 14: Budget	64
+**Use case 15: Display statistics for a tag	65
+*Appendix D.   Non-functional Requirements	66
+*Appendix E.   Glossary	67
+*Appendix F.   Instruction for Manual Testing	68
+**1. Downloading and beginning the application	68
+**2. Addition of receipts	68
+***2.1. Addition of income receipts	68
+***2.2. Addition of Spending receipts	69
+**3. Deletion of receipts	69
+**4. Balance display	70
+***4.1. Get total balance	70
+***4.2. Get total expenditure	70
+***4.3. Get expenditure for a day	70
+***4.4. Get expenditure for the current week	71
+***4.5. Get expenditure for a month	71
+***4.6. Get expenditure for a year	71
+**5. Listing receipts	72
+***5.1. List receipts by index	72
+***5.2. List receipts by date	72
+**6. Tracking receipts	72
+**6.1. Track receipts by tag	72
+**6.2. Untrack receipts by tag	73
+**7. Checking statistics	73
+**8. Currency Conversion	73
+**9. Checking the weather	74
+**10. Basic arithmetic	75
+**10.1. Addition	75
+**10.2. Subtraction	75
+**10.3. Multiplication	76
+**10.4. Division	76
+*11. Help	77
+*12. Edit	77
 
 == 2.   Introduction
 
