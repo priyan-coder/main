@@ -19,47 +19,47 @@ Role: Project Advisor
 '''
 
 === Park So Hyun
-image::So_hyun.jpg[width="150", align="left"]
+image::sallysohyun.png[width="150", align="left"]
 {empty}[http://github.com/sallysohyun[github]] [<<ProjectPortfolioTemplate#, portfolio>>]
 
-Role: Team Lead +
-Responsibilities: UI
+Role: Developer +
+Responsibilities: Features
 
 '''
 
 === Rajamohan B Priyan
-image::Priyan.jpg[width="150", align="left"]
+image::priyan-coder.png[width="150", align="left"]
 {empty}[http://github.com/priyan-coder[github]] [<<ProjectPortfolioTemplate#, portfolio>>]
 
 Role: Team Lead +
-Responsibilities: UI
+Responsibilities: Features
 
 '''
 
 === Raveendran Ajey Ashok
-image::Ajey.jpg[width="150", align="left"]
+image::ajeyashok.png[width="150", align="left"]
 {empty}[http://github.com/AjeyAshok[github]] [<<ProjectPortfolioTemplate#, portfolio>>]
 
 Role: Developer +
-Responsibilities: Data
+Responsibilities: Features
 
 '''
 
 === Senthil Araavind
-image::Araavind.jpg[width="150", align="left"]
+image::araavinds.png[width="150", align="left"]
 {empty}[http://github.com/Araavinds[github]] [<<ProjectPortfolioTemplate#, portfolio>>]
 
 Role: Developer +
-Responsibilities: Dev Ops + Threading
+Responsibilities: Features
 
 '''
 
 === Ahmad Mudaafi'
-image::Mudaafi.jpg[width="150", align="left"]
+image::mudaafi.png[width="150", align="left"]
 {empty}[http://github.com/Mudaafi[github]] [<<ProjectPortfolioTemplate#, portfolio>>]
 
-Role: Developer +
-Responsibilities: UI
+Role: Team Lead +
+Responsibilities: Dev Ops + Ui 
 
 '''
 
